@@ -1,10 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+/*html, body, div, span, applet, object, iframe,
+h1h, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -24,105 +19,114 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 20px 0;
+
+.hero {
+  background-color: rgb(2, 2, 34);
+  text-align: center;
 }
-.parent{
-    /* height: 300px;
-    width: 1200px; */
-    background-color: #2E3141;
+body {
+  line-height: 2;
+  font-size: 18px;
+  color: white;
 }
-h2{
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-    font-size: 30px;
-    
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
-nav{
-    text-align: center;
-    color: white;
-    
+h1 {
+  font-size: 60px;
+  margin-bottom: 14px;
 }
-a{
-    color: white;
-    margin: 5px;
-    text-decoration: none;
-   
+header a {
+  font-size: 24px;
+  color: white;
+  margin: 16px;
+  text-transform: uppercase;
+  padding: 30px;
 }
-h1{
-    font-size: 30px;
-    color: white;
-    margin-top: 100px;
-    
+.color {
+  background-color: rgb(2, 2, 34);
+  color: white;
+  padding: 80px;
 }
-hr{
-    margin: 20px 0px;
-color: rgba(255, 255, 255, 0.9);
+h2 {
+  font-size: 64px;
 }
-.solidstate{
-    color: white;
-    margin: 30px 0;
-    margin-bottom: 80px;
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 40%;
 }
-.article1{
-background-color: #4C5C96;
-color: white;
+.article {
+  background-color: rgb(76, 92, 150);
+  font-size: 50px;
 }
-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: 10px 0;
+h3 {
+  text-align: left;
+  margin-left: 80px;
 }
-h3{
-    margin-top: 20px;
+p {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 80px;
+  padding: 10px;
 }
-.magna{
-    margin: 30px 0 20px 0;
+h4 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 83px;
 }
-.learnmore{
-    font-size: 10px;
+.article-two {
+  background-color: rgb(69, 85, 141);
 }
-.article2{
-    background-color: #45558D;
-    color: white;
+.article-three {
+  background-color: rgb(63, 78, 133);
 }
-.article3{
-    background-color: #3F4E85;
-    color: white;
+footer {
+  background-color: rgb(2, 2, 34);
+  height: 70px;
+  padding-left: 60px;
+  padding-top: 30px;
 }
-footer{
-    background-color: #2D3040;
-    color: white;
-    height: 80px;
-   
-}
-.footermargin{
-    margin-top: 18px;
+img {
+  text-align: left;
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 300;
 }
